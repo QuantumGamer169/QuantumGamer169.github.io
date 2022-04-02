@@ -1,0 +1,45 @@
+/*--------------------------------------*/
+/*        Top Image, Background         */
+/*--------------------------------------*/
+
+.imgbackgroud {
+    position: absolute;
+    background-color: #aaa;
+    background-image: url(../Images/R.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+    
+    bottom: 0px;
+    right: 0px;
+        
+}
+
+
+/*--------------------------------------*/
+/*               Content                */
+/*--------------------------------------*/
+
+.content-group {
+    position: relative;
+    display:  ;
+    background-color: #fff;
+    
+    top: 100vh;
+}
+.content {
+    
+}
+
+
+/*--------------------------------------*/
+/*                Footer                */
+/*--------------------------------------*/
+
+.footer {
+    background-color: #aaa;
+    
+}
