@@ -1,17 +1,31 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
-	
+		<meta charset="utf-8">
+        <meta name="description" content="Test">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Test</title>
+
+		<link href="Assets/css/Nav.css" rel="stylesheet">
+        <script src="Assets/js/nav.js" defer></script>
 	</head>
-	<body>
-		<div>
-			<nav>
-			<nav>
+	<body class="Font-Noto overflowX">
+		<header class="header-primary flex">
+            <div>
+                <img src="Logo.png" class="nav-Logo">
+            </div>
+            
+            <button class="moblie-nav-toggle" aria-controls="nav-primary" aria-expanded="false">
+                <span class="SR-Only">Nav Menu</span>
+            </button>
+            
+			<nav >
 				<!-- Nav Bar / Page Navagation -->
-				<ul>
+				<ul id="nav-primary" data-visible="false" class="nav-primary flex">
 					<!-- Nav Item-->
 					<li>
 						<a href="#" >
+                            <span aria-hidden="true">00</span>
 							<!-- Nav button / Link-->
 							Home
 						</a>
@@ -19,6 +33,7 @@
 					<!-- Nav Item-->
 					<li>
 						<a href="#" >
+                            <span aria-hidden="true">01</span>
 							<!-- Nav button / Link-->
 							JBot
 						</a>
@@ -26,6 +41,7 @@
 					<!-- Nav Item-->
 					<li>
 						<a href="#" >
+                            <span aria-hidden="true">02</span>
 							<!-- Nav button / Link-->
 							SanRP
 						</a>
@@ -33,15 +49,17 @@
 					<!-- Nav Item-->
 					<li>
 						<a href="#" >
+                            <span aria-hidden="true">03</span>
 							<!-- Nav button / Link-->
 							IG Roleplay
 						</a>
 					</li>
 				</ul>
 			</nav>
-		</div>
+		</header>
 		<div>
 			<main>
+                <h1>Header H1</h1>
 				<p>Hello World</p>
 			</main>
 		</div>
