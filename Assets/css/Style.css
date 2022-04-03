@@ -15,9 +15,90 @@
     
     bottom: 0px;
     right: 0px;
-        
+    display: flex;
 }
 
+
+/*--------------------------------------*/
+/*          Text Logo, Button           */
+/*--------------------------------------*/
+
+.ImgBackground-Content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+    width: 35vw;
+    
+    margin-top: 15vh;
+    margin-left: 32.5vw;
+    
+    
+}
+
+@media (max-width: 45em) {
+    .ImgBackground-Content {
+        width: 45vw;
+        margin-top: 15vh;
+        margin-left: 27.5vw;
+    
+    
+    }
+}
+
+#GetStaredButton {
+    margin: 30px;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 50px;
+    
+    max-width: 100%;
+    min-width: 140px;
+    
+    padding: 3px;
+    
+    cursor: pointer;
+    
+    font-size: 20px;
+    /*
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    */
+}
+
+#GetStaredButton:active,
+#GetStaredButton:hover {
+    outline: 0;
+}
+
+#GetStaredButton span {
+    background-color: rgb(5, 6, 45);
+    padding: 15px 24px;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+#GetStaredButton:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+  #GetStaredButton {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
 
 /*--------------------------------------*/
 /*               Content                */
@@ -28,7 +109,12 @@
     display:  ;
     background-color: #fff;
     
-    top: 100vh;
+    top: calc(100vh);
+    
+    
+    bottom: 0vh;
+    
+    padding-top: 10px;
 }
 .content {
     
