@@ -3,6 +3,7 @@
 /*--------------------------------------*/
 
 .header-primary {
+    position: static;
     align-items: center;
     justify-content: space-between
 }
@@ -12,6 +13,7 @@
     height: auto;
     max-width: 90px;
     margin: 1rem;
+    padding-left: 15px;
 }
 
 .nav-primary {
@@ -77,6 +79,10 @@
         aspect-ratio: 1;
         top: 2rem;
         right: 2rem;
+    }
+    .moblie-nav-toggle:hover {
+        opacity: 0.5;
+        cursor: pointer;
     }
     
     .moblie-nav-toggle[aria-expanded="true"] {
