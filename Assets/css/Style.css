@@ -5,7 +5,7 @@
 .imgbackgroud {
     position: absolute;
     background-color: #aaa;
-    background-image: url(../Images/R.jpg);
+    background-image: url(../Images/R2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,18 +54,21 @@
     justify-content: center;
     align-items: center;
     
-    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    background-image: linear-gradient(144deg,#9c6efa,#2a4858);
     border: 0;
     border-radius: 50px;
     
     max-width: 100%;
     min-width: 140px;
     
-    padding: 3px;
+    padding: 6px;
     
     cursor: pointer;
     
     font-size: 20px;
+    -webkit-box-shadow: 2px -2px 57px 11px rgba(0,0,0,0.36); 
+    box-shadow: 3px -3px 25px 5px rgba(0,0,0,0.36);
+    
     /*
     text-decoration: none;
     user-select: none;
@@ -99,6 +102,24 @@
     min-width: 196px;
   }
 }
+
+
+/*--------------------------------------*/
+/*           Links / Headers            */
+/*--------------------------------------*/
+
+.Header-Links,
+.Header-Links-Light {
+    text-decoration: none;
+    font-weight: 700
+}
+a.Header-Links {
+    color: black;
+}
+a.Header-Links-Light {
+    color: white;
+}
+
 
 /*--------------------------------------*/
 /*               Content                */
