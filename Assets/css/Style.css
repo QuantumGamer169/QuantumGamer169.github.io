@@ -127,19 +127,25 @@ a.Header-Links-Light {
 
 .content-group {
     position: relative;
-    display:  ;
+    /*display:  flex;
+    flex-direction: column;*/
     background-color: #fff;
     
     top: calc(100vh);
     
-    
     bottom: 0vh;
     
-    padding-top: 10px;
-}
-.content {
+    
     
 }
+.content {
+    max-width: 800px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    max-width: 800px;
+}
+
 
 
 /*--------------------------------------*/
@@ -148,5 +154,5 @@ a.Header-Links-Light {
 
 .footer {
     background-color: #aaa;
-    
+    width: 100vw;
 }
