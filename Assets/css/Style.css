@@ -155,4 +155,5 @@ a.Header-Links-Light {
 .footer {
     background-color: #aaa;
     width: 100vw;
+    padding-top: 10px;
 }
