@@ -1,0 +1,33 @@
+.StaffContent {
+    padding: 25px;
+    margin: auto;
+}
+
+.StaffGrid div {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 50px;
+    margin: auto
+}
+
+.StaffGrid div div{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1px;
+}
+
+.StaffGrid hr {
+    width: 50vw;
+    border-radius: 50%;
+}
+
+.Applications {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.Applications hr{
+    width: 10vw;
+    border-radius: 50%;
+}
