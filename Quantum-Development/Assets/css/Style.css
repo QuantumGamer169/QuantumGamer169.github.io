@@ -5,7 +5,7 @@
 .imgbackgroud {
     position: absolute;
     background-color: #aaa;
-    background-image: url(../Images/White-Background.png);
+    background-image: url(../Images/R2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,7 +54,7 @@
     justify-content: center;
     align-items: center;
     
-    background-image: linear-gradient(#FF2173);
+    background-image: linear-gradient(144deg,#9c6efa,#2a4858);
     border: 0;
     border-radius: 50px;
     
@@ -129,7 +129,7 @@ a.Header-Links-Light {
     position: relative;
     /*display:  flex;
     flex-direction: column;*/
-    background-color: #ffffff;
+    background-color: #fff;
     
     top: calc(100vh);
     
@@ -144,17 +144,9 @@ a.Header-Links-Light {
     padding-right: 25px;
     margin: auto;
     max-width: 800px;
-	
-}
-.content-odd {
-	Background-color: #a4a4a4;
-	color: white;
 }
 
-.content-odd section p{
-	Background-color: #a4a4a4;
-	color: white;
-}
+
 
 /*--------------------------------------*/
 /*                Footer                */

@@ -11,7 +11,7 @@
 .nav-Logo {
     width: auto;
     height: auto;
-    max-width: 350px;
+    max-width: 90px;
     margin: 1rem;
     padding-left: 15px;
 }
@@ -20,9 +20,8 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #a4a4a4;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    background-color: hsl(0 0% 0% / 0.9);
+    
 }
 
 .nav-primary a {
@@ -40,9 +39,17 @@
     display: none;
 }
 
+@supports (backdrop-filter: blur(0.5rem)) {
+    .nav-primary {
+        background-color: hsl(349 15% 84% / 0.27);
+        backdrop-filter: blur(0.5rem);
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
 
+    }
+}
 
-@media (max-width: 55em) {
+@media (max-width: 37em) {
     .nav-primary {
         --gap: 1.75em;
         
@@ -88,7 +95,7 @@
     transform: translateX(0%);
 }
 
-@media (min-width:55em) {
+@media (min-width:37em) {
     .nav-primary a > span {
         display: none;
     }
